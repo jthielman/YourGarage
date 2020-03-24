@@ -83,31 +83,28 @@ namespace YourGarage
 
             // Build a collection of all vehicles that operate on water
             // With a single `foreach`, have each water vehicle Drive()
-            var hmsVictory = new ShipOfTheLine
+            var hmsVictory = new ShipOfTheLine(104)
             {
                 Name = "HMS Victory",
                 FuelCapacity = 0,
                 PaintJob = Color.Yellow,
                 PassengerOccupancy = 821,
-                Guns = 104,
                 Rating = Rate.FirstRate
             };
-            var hmsEuryalus = new ShipOfTheLine
+            var hmsEuryalus = new ShipOfTheLine(36)
             {
                 Name = "HMS Euryalus",
                 FuelCapacity = 0,
                 PaintJob = Color.Black,
                 PassengerOccupancy = 515,
-                Guns = 36,
                 Rating = Rate.FifthRate
             };
-            var hmsTemeraire = new ShipOfTheLine
+            var hmsTemeraire = new ShipOfTheLine(98)
             {
                 Name = "HMS Temeraire",
                 FuelCapacity = 0,
                 PaintJob = Color.Yellow,
                 PassengerOccupancy = 738,
-                Guns = 98,
                 Rating = Rate.SecondRate
             };
 
