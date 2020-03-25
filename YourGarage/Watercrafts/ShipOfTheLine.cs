@@ -6,8 +6,13 @@ namespace YourGarage.Watercrafts
 {
     class ShipOfTheLine : Watercraft
     {
-        public int Guns { get; set; }
+        public int Guns { get; }
         public Rate Rating { get; set; }
+
+        public ShipOfTheLine(int numberOfGuns)
+        {
+            Guns = numberOfGuns;
+        }
 
         public override void Drive()
         {
